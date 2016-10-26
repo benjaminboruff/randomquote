@@ -1,0 +1,23 @@
+.mdl-layout__content {
+  background-color: #FF9100;
+}
+
+.mdl-grid {
+  height: 100%;
+  max-width: 75%;
+  margin: 7% auto;
+}
+
+.quote-card > .mdl-card__actions {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.quote-card > .mdl-card__actions > .mdl-button--icon {
+  margin-left: 50%;
+}
+
+.fa-twitter {
+  color: #55acee;
+}

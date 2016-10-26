@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Quote </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.amber-deep_orange.min.css" />
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout">
+    <div class="mdl-layout__content">
+      <div class="mdl-grid">
+
+        <div class="mdl-layout-spacer"></div>
+
+        <div class="mdl-cell mdl-cell--8-col">
+
+          <div class="quote-card mdl-card mdl-shadow--4dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <p id="output"></p>
+            </div>
+
+            <div class="mdl-card__actions mdl-card--border">
+              <a id="another-quote-button" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              New Quote
+            </a>
+              <a id="tweet-me-button" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-layout-spacer"></div>
+
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
